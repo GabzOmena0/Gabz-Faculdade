@@ -12,27 +12,27 @@ setlocale(LC_ALL, "Portuguese");
  scanf("%f", &salmedio);
  
  if (salmedio > 400){
-     credito = (salmedio * 0.10);
+     credito = (salmedio * 0.30);
       printf("O credito é...:R$ %.2f\n", credito);
-         credito = salmedio+(salmedio * 0.10);
+         credito = salmedio+salmedio;
           printf("Salario final é...:R$ %.2f\n", credito);
  }
  else if (salmedio < 400 && salmedio >300){
-     credito = (salmedio * 0.10);
-      printf("SO credito é...:R$ %.2f\n", credito);
-         credito = salmedio+(salmedio * 0.10);
-          printf("Salario final é...: R$ %.2f\n", credito);
+     credito = (salmedio * 0.25);
+      printf("O credito é...:R$ %.2f\n", credito);
+         credito = salmedio+salmedio;
+          printf("Salario final é...:R$ %.2f\n", credito);
  }
   else if (salmedio < 300 && salmedio >200){
-     credito = (salmedio * 0.10);
+     credito = (salmedio * 0.20);
       printf("O credito é...:R$ %.2f\n", credito);
-         credito = salmedio+(salmedio * 0.10);
+         credito = salmedio+salmedio;
           printf("Salario final é...:R$ %.2f\n", credito);
  }
  else if (salmedio < 200){
      credito = (salmedio * 0.10);
       printf("O credito é...:R$ %.2f\n", credito);
-         credito = salmedio+(salmedio * 0.10);
+         credito = salmedio+salmedio;
           printf("Salario final é...:R$ %.2f\n", credito);
  }
  
