@@ -1,0 +1,42 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <locale.h>
+
+int main() {
+    
+setlocale(LC_ALL, "Portuguese");
+   
+   float salmedio, credito;
+   
+ printf("Qual o salario medio ? ");
+ scanf("%f", &salmedio);
+ 
+ if (salmedio > 400){
+     credito = (salmedio * 0.10);
+      printf("O credito é...:R$ %.2f\n", credito);
+         credito = salmedio+(salmedio * 0.10);
+          printf("Salario final é...:R$ %.2f\n", credito);
+ }
+ else if (salmedio < 400 && salmedio >300){
+     credito = (salmedio * 0.10);
+      printf("SO credito é...:R$ %.2f\n", credito);
+         credito = salmedio+(salmedio * 0.10);
+          printf("Salario final é...: R$ %.2f\n", credito);
+ }
+  else if (salmedio < 300 && salmedio >200){
+     credito = (salmedio * 0.10);
+      printf("O credito é...:R$ %.2f\n", credito);
+         credito = salmedio+(salmedio * 0.10);
+          printf("Salario final é...:R$ %.2f\n", credito);
+ }
+ else if (salmedio < 200){
+     credito = (salmedio * 0.10);
+      printf("O credito é...:R$ %.2f\n", credito);
+         credito = salmedio+(salmedio * 0.10);
+          printf("Salario final é...:R$ %.2f\n", credito);
+ }
+ 
+
+    
+    return 0;
+}
