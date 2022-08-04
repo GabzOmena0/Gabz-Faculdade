@@ -1,0 +1,44 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main(void) {
+int contador, idade,numero = 1, sexo,alturaCont = 0;
+float peso, altura, pesoMedia= 0;
+  
+for(contador = 1; contador <= 1; contador++)
+{
+    printf("Entrevistado N° %d\n", numero);
+      
+    printf("Qual a idade ?\n");
+    scanf("%didade", &idade);
+    
+    printf("Qual o sexo (1- F  2-M ?)\n");
+    scanf("%dsexo", &sexo);
+       
+    printf("Qual a peso ?\n");
+    scanf("%fpeso", &peso);
+    
+    if(sexo = 1){
+        pesoMedia = peso + pesoMedia;
+    }
+    sexo = 0;
+        
+    printf("Qual a altura ?\n");
+    scanf("%faltura", &altura);
+    if(altura > 2){
+        alturaCont++;
+    }
+    numero++;
+    printf("\n****************************\n");
+    }
+    pesoMedia = pesoMedia / contador;
+    
+    printf("A quantidade de pessoas com altura superior a 2 metros é..: %d\n", alturaCont);
+    if(pesoMedia < 0 ){
+    printf("A médida de peso das mulheres é..: %.2f\n", pesoMedia);
+    }
+    else{
+    printf("Nenhuma mulher foi entrevistada\n");
+    }
+}
+//é o Gabz
